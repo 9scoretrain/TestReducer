@@ -1,2 +1,2 @@
 
-![](TestReducerEffect.mov)
+![Effect](TestReducerEffect.mov)
