@@ -13,6 +13,7 @@
 		FE9F02F42574A9E10028B20A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE9F02F32574A9E10028B20A /* Preview Assets.xcassets */; };
 		FE9F02FF2574A9E10028B20A /* TestReducerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9F02FE2574A9E10028B20A /* TestReducerTests.swift */; };
 		FE9F030A2574A9E10028B20A /* TestReducerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9F03092574A9E10028B20A /* TestReducerUITests.swift */; };
+		FE9F031B2574A9F80028B20A /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9F031A2574A9F80028B20A /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		FE9F03052574A9E10028B20A /* TestReducerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestReducerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9F03092574A9E10028B20A /* TestReducerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestReducerUITests.swift; sourceTree = "<group>"; };
 		FE9F030B2574A9E10028B20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE9F031A2574A9F80028B20A /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				FE9F02F02574A9E10028B20A /* Assets.xcassets */,
 				FE9F02F52574A9E10028B20A /* Info.plist */,
 				FE9F02F22574A9E10028B20A /* Preview Content */,
+				FE9F031A2574A9F80028B20A /* Store.swift */,
 			);
 			path = TestReducer;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE9F031B2574A9F80028B20A /* Store.swift in Sources */,
 				FE9F02EF2574A9DF0028B20A /* ContentView.swift in Sources */,
 				FE9F02ED2574A9DF0028B20A /* TestReducerApp.swift in Sources */,
 			);
